@@ -22,6 +22,10 @@ app.use(allowCrossDomain);
 
 
 
+
+
+
+
 require("./routes/user.routes.js")(app);
 
 // set port, listen for requests API Rest 
